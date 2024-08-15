@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* banner style first page */
+
+header {
+ width: 80%;
+ margin: auto;
+
+}
+
+.banner-section {
+ background-image: url("../resources/Banner\ Image.png");
+ font-family: 'Merriweather', serif;
+ text-align: center;
+ background-size: cover;
+ border-radius: 20px;
+ color: #fff;
+ background-repeat: no-repeat;
+ padding-bottom: 250px;
+}
+
+.banner-section h5 {
+ font-size: 32px;
+}
+
+.banner-section h1 {
+ font-size: 73px;
+ font-weight: 900;
+ line-height: 95px;
+}
+
+/* /* offer section style 2 */
+
+
+.offer-section {
+ margin: 100px 0px;
+ font-family: "inter", sans-serif;
+ text-align: center;
+}
+
+.offer-section h2 {
+ color: #ff0000;
+ font-size: 70px;
+ font-weight: 700;
+ margin-bottom: 70px;
+}
+
+.offer-section p {
+ color: #ff0000;
+ font-size: 20px;
+ font-weight: 500;
+}
+
+.offer-section h3 {
+ font-size: 40px;
+ font-weight: 700;
+}
+
+
+/*  */
+
+.midnight-party-section {
+ background-size: 100% 100%;
+}
+
+.midnight-conntainer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 100px;
+ padding-bottom: 20px;
+ gap: 80px;
+ border-radius: 20px;
+ color: #FFF;
+ background: url("/resources/Vectorrr.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 80%;
+ margin: auto;
+}
+
+.midnight-title {
+ font-size: 60px;
+ font-weight: 900;
+ color: #fff;
+}
+
+.midnight-description {
+ font-size: 18px;
+ font-weight: 500;
+ color: #a49595b8;
+ line-height: 30px;
+}
+
+.btn1 {
+ padding: 15px;
+ font-size: 15px;
+ background-color: rgba(0, 0, 0, 0.096);
+ color: #fff;
+ border: none;
+ border-radius: 10px;
+}
+
+/*  */
+
+.park-hotel {
+ width: 80%;
+ margin: auto;
+ padding-top: 80px;
+ padding-bottom: 80px;
+ border-radius: 20px;
+ background-color: #fff8f3;
+ margin-top: 80px;
+}
+
+.park-hotel-container {
+ text-align: center;
+ font-size: 35px;
+ font-weight: 700;
+}
+
+.park-hotel-container p {
+ font-size: 30px;
+ font-weight: 700;
+ color: rgba(0, 0, 0, 0.911);
+
+}
+
+.park-hotel-container span {
+ color: #fb0707;
+}
+
+.btn2 {
+ color: #FFF;
+ border-radius: 8px;
+ font-weight: 600;
+ border: none;
+ font-size: 15px;
+ background-color: #ff0000;
+ font-family: "inter", sans-serif;
+ padding: 15px;
+}
+
+/*  */
+.best-offer-section {
+ width: 80%;
+}
+
+.best-offer-container {
+ padding-top: 80px;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.best-offer-title {
+ font-size: 13px;
+ font-weight: 500;
+ color: #fb0707;
+}
+
+.left-part {
+ padding-top: 1px;
+ line-height: 19px;
+}
+
+.left-part h1 {
+ font-size: 32px;
+ font-weight: 700;
+}
+
+.left-part p {
+ font-size: 19px;
+ font-weight: 500;
+ line-height: 20px;
+ color: rgba(0, 0, 0, 0.751);
+}
+
+.right-part h1 {
+ font-size: 30px;
+ font-weight: 800;
+ color: #fb0707;
+}
+
+.right-part p {
+ font-size: 19px;
+ font-weight: 500;
+ line-height: 20px;
+ color: rgba(0, 0, 0, 0.751);
+}
+
+.middle-img img {
+ width: 50%;
+ border: 20px solid #fb0707;
+ border-radius: 50%;
+ padding: 18px;
+ margin-right: 150px;
+}
+
+/*  */
+.holiday-container {
+ width: 80%;
+ margin: auto;
+ text-align: center;
+ justify-content: center;
+}
+
+.holiday-title {
+ width: 70%;
+ text-align: center;
+ justify-content: center;
+ display: inline-block;
+}
+
+.holiday-title h3 {
+ font-size: 20px;
+ font-weight: 600;
+ color: black;
+}
+
+.holiday-title h1 {
+ font-size: 40px;
+ font-weight: 800;
+}
+
+.holiday-title span {
+ color: #ff0000;
+}
+
+.holiday-right {
+ display: flex;
+}
+
+.holiday-girl {
+ position: relative;
+ z-index: -10;
+ width: 100%;
+ height: 100%;
+ margin-left: 53px;
+}
+
+.discount {
+ position: absolute;
+ width: 20%;
+ height: 30%;
+ z-index: 1;
+ padding: 200px 0px 3px 0px;
+}
+
+.holiday-img {
+ display: flex;
+}
+
+.bottom-img {
+ position: relative;
+ width: 100%;
+}
+
+/*  */
+
+.portfolio {
+ width: 80%;
+ margin-top: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.portfolio-title {
+ width: 70%;
+}
+
+.portfolio-title h4 {
+ color: #fb0707;
+ font-size: 20px;
+ font-weight: 600;
+}
+
+.portfolio-title h1 {
+ font-size: 42px;
+ font-weight: 800;
+ color: black;
+}
+
+.portfolio-title p {
+ font-size: 18px;
+ font-weight: 500;
+ color: rgba(39, 26, 26, 0.853);
+}
+
+.portfolio-card {
+ width: 100%;
+ justify-content: center;
+}
+
+.card-img {
+ width: 100%;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ row-gap: 20px;
+}
+
+.newsletter {
+ width: 80%;
+ margin: auto;
+ height: 300px;
+ padding-top: 80px;
+ padding-bottom: 100px;
+ border-radius: 20px;
+ background-color: #d26111;
+ margin-top: 60px;
+ background-color: rgba(223, 163, 173, 0.197);
+ margin-bottom: 40px;
+}
+
+.newsletter .newsletter-content {
+ width: 70%;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.newsletter-content p {
+ width: 50%;
+ margin-top: -10px;
+}
+
+.input-subscribe {
+ width: 70%;
+ height: 60px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.input-subscribe input {
+ width: 40%;
+ padding: 17px 17px 17px 17px;
+ border-radius: 25px 0px 0px 25px;
+ margin-right: 10px;
+ border: none;
+ font-size: 16px;
+}
+
+.btn3 {
+ padding: 15px 40px 15px 15px;
+ border-radius: 0px 25px 25px 0px;
+ border: none;
+ font-size: 16px;
+ color: #fff;
+ background-color: #fb0707;
+}
+
+/*  */
+
+
+
+.footer-container {
+ width: 100%;
+ height: 450px;
+ background: black;
+ color: #fff;
+}
+
+.footer-content {
+ padding-top: 50px;
+ font-size: 15px;
+ font-weight: 700;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.contact {
+ padding-left: 500px;
+}
+.horijontal-line{
+ width: 80%;
+ margin: 30px auto;
+ height: 1px;
+ background: #ffffff50;
+ padding: 0px 0px 0px ;
+ align-items: center;
+}
+.social-icons{
+ width: 80%;
+ margin: 30px auto;
+ height: 1px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ gap: 20px;
+}
+.footer-content-line {
+ width: 80%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+.footer-content-line h2{
+ padding-top: 50px;
+ padding-bottom: 20px;
+ align-items: center;
+}
+.footer-content-line .contact-line{
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
